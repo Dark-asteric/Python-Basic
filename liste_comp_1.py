@@ -62,3 +62,8 @@ print()
 lst5 = [i for i in lst2 if (i>0 and i%2 ==0)]
 print(lst5)
 print()
+
+# Reverse list:
+l = [2,3,4,5,7,8]
+ls = [l[-i-1] for i in range(len(l))]
+print(ls)
