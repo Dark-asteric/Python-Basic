@@ -1,0 +1,43 @@
+sort:
+i) lst1.sort()
+ii) lst.sort(reverse = True)
+
+reverse:
+i) lst = lst1[::-1]
+ii) lst.reverse()
+
+insert:
+i) lst.insert(index,value)
+
+remove:
+i) lst.remove() -> specified item
+ii) lst.pop() -> remove last item and if we give an index, pop() delete this index
+
+delete:
+i) del lst[0] -> delete specified index
+ii) del lst -> delete entire list
+
+clear:
+i) clear items but list will remain
+
+join/add:
+i) lst3 = lst1 + lst2
+ii) for i in lst2:
+	lst1.append(i)
+iii) lst1.extend(lst2)
+
+count:
+x = lst.count(value)
+
+find index:
+idx = lst.index(value)
+
+print values:
+i) for i in range(len(lst)):
+	print(lst[i])
+ii) for it in lst:
+	print(it)
+
+copy:
+i) newlst = lst.copy()
+ii) newlst = list(lst)
